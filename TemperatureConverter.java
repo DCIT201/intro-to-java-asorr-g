@@ -39,7 +39,6 @@ public class TemperatureConverter{
         }
 
         //close the scanner to prevent resource leaks
-scanner.close();
+        scanner.close();
     }
 }
-
